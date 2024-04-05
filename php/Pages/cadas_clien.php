@@ -31,34 +31,22 @@ Senha
                 <label for="cpf">CPF:</label>
                 <input type="text" name="cpf" id="cpf" class="form-control">
             </div>
+
+            <h2>Endereço</h2>
+            <hr>
             <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
+                <label for="endereco">Rua: </label>
+                <input type="text" name="rua" id="endereco" class="form-control">
             </div>
             <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
+                <label for="numero">N°: </label>
+                <input type="text" name="numero" id="numero" class="form-control">
             </div>
             <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
+                <label for="complemento">Complemento:  </label>
+                <input type="text" name="complemento" id="complemento" placeholder="(opcional)" class="form-control">
             </div>
-            <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
-            </div>
-            <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
-            </div>
-            <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
-            </div>
-            <div class="col-4">
-                <label for="endereco">Endereço: </label>
-                <input type="text" name="endereco" id="endereco" class="form-control">
-            </div>
+         
         
             <button type="submit" name="enviarDados" class="btn btn-primary">Cadastrar</button>
 
