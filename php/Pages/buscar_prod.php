@@ -13,7 +13,7 @@
 
     <div class="container">
         <form action="./Controller/buscar_prod_controller.php" method="post">
-            <label for="">Pesquise um sabor ou o nome da pizza</label>
+            <label for="">Pesquise um sabor ou o nome do produto</label>
             <input type="text" id="valor_buscado" nome="valor_buscado" placeholder="Digite aqui">
             <button type="submit" name="submit" id="submit" class="btn btn-primary">Pesquisar</button>
         </form>

@@ -9,7 +9,7 @@ if (!empty($_POST)) {
     try {
         // Preparar as informações
         // Montar a SQL (pgsql)
-        $sql = "INSERT INTO clientes (cpf_cliente, nome, endereco, idade) VALUES (:cpf_clientes, :nome, :endereco, :idade)";
+        $sql = "INSERT INTO clientes (cpf_cliente, nome, idade) VALUES (:cpf_clientes, :nome, :idade); INSERT INTO endereco (id_endere, , complemento, rua, numero) VALUES  (:id_endere, , :complemento, :rua, :numero)";
 
         // Preparar a SQL (pdo)
         $stmt = $pdo->prepare($sql);

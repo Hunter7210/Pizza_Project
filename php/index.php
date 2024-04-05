@@ -131,7 +131,8 @@
             <a href="#" alt="Usuario"><img src="" alt=""></a>
             <div class="links-nav">
                 <a href="#">Produtos</a>
-                <a href="../php/cadas_clien.php">Cadastre-se</a>
+                <a href="./Pages/cadas_prod.php">Login</a>
+                <a href="./Pages/cadas_clien.php">Cadastre-se</a>
                 <a href="#">Faq</a>
                 <a href="#">Sobre nós</a>
                 <p>Tel:</p>

@@ -1,8 +1,3 @@
--- Geração de Modelo físico
--- Sql ANSI 2003 - brModelo.
-
-
-
 CREATE TABLE Fornecedores (
 Id_fornc SERIAL NOT NULL PRIMARY KEY,
 Nome_Fornec VARCHAR(255),
@@ -46,10 +41,9 @@ RE_Func INT PRIMARY KEY
 )
 
 CREATE TABLE Clientes (
-cpf_cliente VARCHAR(14)  NOT NULL PRIMARY KEY,
+cpf_cliente VARCHAR(14) NOT NULL PRIMARY KEY,
 Idade INT,
-Nome VARCHAR(255),
-Endereco Varchar(255)
+Nome VARCHAR(255)
 )
 
 CREATE TABLE Vendas (
@@ -101,3 +95,6 @@ FOREIGN KEY(cpf_cliente) REFERENCES Clientes (cpf_cliente)
 )
 
 ALTER TABLE Fornecedores ADD FOREIGN KEY(id_prod) REFERENCES Produtos (id_prod)
+
+
+
