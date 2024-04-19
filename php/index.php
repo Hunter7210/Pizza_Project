@@ -135,6 +135,7 @@
                 <a href="./Pages/cadas_clien.php">Cadastre-se</a>
                 <a href="#">Faq</a>
                 <a href="#">Sobre nós</a>
+                <a href="./caminho/para/sua/pagina_de_filtro.php">Filtrar Sabores</a> <!-- Adicionando o link para a página de filtro -->
                 <p>Tel:</p>
             </div>
         </div>
@@ -145,32 +146,10 @@
         </div>
         <h2 class="title">Título dos Cards</h2>
         <div class="cards-container">
-            <div class="card">
-                <div class="img-card">
-                    <img src="" alt="">
-                </div>
-                <div class="stars">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                <div class="textos-card">
-                    <h1>Nome produto</h1>
-                </div>
-                <div class="subtitu-card">
-                    <p>subtitulo</p>
-                </div>
-                <div class="btn-card">
-                    <button></button>
-                </div>
-            </div>
-            <div class="card">Card 2</div>
-            <div class="card">Card 3</div>
-            <div class="card">Card 4</div>
-            <div class="card">Card 5</div>
-            <div class="card">Card 6</div>
+            <?php
+            // Aqui você pode incluir o código PHP do seu controlador para buscar e exibir os dados da tabela
+            include("./Controller/buscar_prod_controller.php");
+            ?>
         </div>
         <h2 class="title">Outro Título</h2>
         <div class="grid-container">

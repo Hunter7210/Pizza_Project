@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Filtragem de Sabores de Pizza</title>
+    <title>Verifique seus pedidos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -41,15 +41,15 @@
 <body>
     <div class="container">
         
-    <h1>Filtragem de Produtos</h1>
-        <h3>Fique por dentro dos produtos que usamos para realizar a sua pizza!</h3>
+    <h1>Filtragem dos seus produtos</h1>
+        <h3>Digite desta forma YYYY-MM-DD!</h3>
         <form action="" method="POST">
             <label for="valor_buscado">Buscar por nome ou marca de produto:</label>
             <input type="text" id="valor_buscado" name="valor_buscado">
             <input type="submit" name="submit" value="Buscar">
         </form>
         <?php
-        include("../Controller/buscar_prod_controller.php");
+        include("../Controller/buscar_pedi_controller.php");
         ?>
     </div>
 </body>

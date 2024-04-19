@@ -41,15 +41,15 @@
 <body>
     <div class="container">
         
-    <h1>Filtragem de Produtos</h1>
-        <h3>Fique por dentro dos produtos que usamos para realizar a sua pizza!</h3>
+    <h1>Filtragem de Funcionarios</h1>
+        <h3>Fique por dentro dos nossos Funcionarios!</h3>
         <form action="" method="POST">
-            <label for="valor_buscado">Buscar por nome ou marca de produto:</label>
+            <label for="valor_buscado">Buscar por nome ou função:</label>
             <input type="text" id="valor_buscado" name="valor_buscado">
             <input type="submit" name="submit" value="Buscar">
         </form>
         <?php
-        include("../Controller/buscar_prod_controller.php");
+        include("../Controller/buscar_func_controller.php");
         ?>
     </div>
 </body>

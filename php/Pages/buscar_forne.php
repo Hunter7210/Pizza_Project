@@ -49,7 +49,7 @@
             <input type="submit" name="submit" value="Buscar">
         </form>
         <?php
-        include("../Controller/buscar_prod_controller.php");
+        include("../Controller/buscar_fornece_controller.php");
         ?>
     </div>
 </body>
