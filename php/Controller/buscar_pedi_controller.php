@@ -4,9 +4,8 @@
 require_once("../Connection/ConexaoDB.php"); 
 
 if (isset($_POST['submit'])) {
-    // Evite injeção de SQL usando prepared statements-- Consulta para contar o número de pedidos com uma determinada data de realização e exibir outros valores da tabela
-$sql = "SELECT *, (SELECT COUNT(*) FROM pedidos WHERE data_reali_ped = :valor_buscado) AS total_pedidos FROM pedidos WHERE data_reali_ped = :valor_buscado";
-
+    // Evite injeção de SQL usando prepared statements
+    $sql =  "SELECT * FROM pedidos WHERE data_reali_ped = :valor_buscado";
     $valor_buscado = $_POST['valor_buscado'];
 
     // Prepara e executa a consulta

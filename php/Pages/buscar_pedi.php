@@ -42,7 +42,7 @@
     <div class="container">
         
     <h1>Filtragem dos seus produtos</h1>
-        <h3>Digite desta forma YYYY-MM-DD!</h3>
+        <h3>Digite a data  YYYY-MM-DD!</h3>
         <form action="" method="POST">
             <label for="valor_buscado">Buscar por nome ou marca de produto:</label>
             <input type="text" id="valor_buscado" name="valor_buscado">
